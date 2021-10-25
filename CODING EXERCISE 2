@@ -1,0 +1,22 @@
+package numericData;
+
+public class exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+double sem1= 3.35;
+double sem2= 3.35;
+double ans;
+String name= "fasihatul amira";
+String kolej= "kolej matrikulasi perak";
+
+ans=(sem1+sem2)/2;
+
+System.out.println("Name: " + name);
+System.out.println("kolej: " + kolej);
+System.out.println("GPA SEM 1:" + sem1);
+System.out.println("GPA SEM 2:" + sem2);
+System.out.println("CGPA: " + ans);
+	}
+
+}
